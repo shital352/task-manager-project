@@ -1,0 +1,14 @@
+.task-list {
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .task-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+  }
+  

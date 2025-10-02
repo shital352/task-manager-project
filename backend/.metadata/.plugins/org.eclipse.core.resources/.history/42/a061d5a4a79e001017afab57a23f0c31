@@ -1,0 +1,9 @@
+spring.application.name=task-manager-backend
+
+# File-based H2 DB (persistent)
+spring.datasource.url=jdbc:h2:file:./taskdb
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=
+spring.jpa.hibernate.ddl-auto=update
+spring.h2.console.enabled=true
